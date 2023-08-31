@@ -1,11 +1,16 @@
-const email = document.querySelector('#email');
+const emailField = document.querySelector('#email');
+const errorField = document.querySelector('#error')
 
-function validate_email() {
-    if (!email.checkValidity()) {
-        document.getElementById("error").innerHTML = "E-mail is not correct";
+
+function validateEmail() {
+    if (!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+        errorField.innerHTML = "Please provide a valid email adress"
+        errorField.style.fontSize = "0.7rem";
+        errorField.style.marginBottom = "1rem";
+        errorField.style.marginTop = "0.5rem";
+        errorField.style.gridArea = "c";
         return false;
-    } else {
-        document.getElementById("error").innerHTML = "";
-        return true;
     }
+    errorField.innerHTML = "";
+    return true;
 }

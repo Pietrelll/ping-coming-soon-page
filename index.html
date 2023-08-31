@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 
@@ -20,8 +21,8 @@
 
     <form action="">
       <input type="email" name="email" id="email" placeholder="Your email address..." autocomplete="email" required
-        aria-required="true">
-      <p id="error" style="color: red;"></p>
+        aria-required="true" oninvalid="validateEmail()">
+      <p id="error"></p>
       <button type="submit" id="submit-btn">Notify Me</button>
     </form>
     <img src="./images/illustration-dashboard.png" alt="" id="dashboard-img">
