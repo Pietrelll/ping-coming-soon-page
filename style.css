@@ -142,11 +142,12 @@ input:focus {
     }
 
     .logo {
-        scale: 90%;
+        scale: 100%;
     }
 
     h2 {
         font-size: 0.6em;
+        margin-bottom: 2rem;
     }
 
     form {
@@ -158,6 +159,7 @@ input:focus {
         grid-area: a;
         width: 30rem;
         padding: 1rem;
+        font-size: 1rem;
     }
 
     #submit-btn {
@@ -166,6 +168,7 @@ input:focus {
         padding: 1rem 2.5rem;
         width: 10rem;
         margin-top: 0;
+        font-size: 1rem;
     }
 
     #dashboard-img {
