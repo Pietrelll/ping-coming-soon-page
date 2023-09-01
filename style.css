@@ -138,7 +138,7 @@ input:focus {
 
 @media (min-width: 700px) {
     main {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .logo {
@@ -152,13 +152,14 @@ input:focus {
 
     #email {
         grid-area: a;
-        width: 15rem;
+        width: 20rem;
     }
 
     #submit-btn {
         grid-area: b;
         margin-left: 0.5rem;
         padding: 1rem 2.5rem;
+        width: 10rem;
     }
 
     #dashboard-img {
@@ -169,6 +170,6 @@ input:focus {
 
 @media (min-width: 1200px) {
     #dashboard-img {
-        max-width: 40%;
+        max-width: 50%;
     }
 }
