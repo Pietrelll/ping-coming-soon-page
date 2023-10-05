@@ -1,2 +1,8 @@
 # ping coming soon page
- ping coming soon page frontend mentor project
+ Ping coming soon page frontend mentor project <br />
+ Build with: <br />
+ <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Love</li>
+ </ul>
